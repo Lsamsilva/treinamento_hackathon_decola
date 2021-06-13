@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+#div1 {
+    height: 25vh;
+    background-color: red;
+    /*text-align: center;*/
+
+    display: flex;
+    flex-direction: row; /*Por padrão é row, se não colocar nada ficará com row, ou seja, linha*/
+    justify-content: center; /*Por ser direcionado como linha, ajusta horizontalmente o elemento*/
+    align-items: center; /*alinhamento vertical*/
+}
+
+#div2 {
+    height: 25vh;
+    background-color: orange;
+      
+    display: flex; 
+    flex-direction: row;
+    /* flex-direction: column-reverse;  Inverte a ordem dos elementos */
+    align-items: center;
+    justify-content: space-around; /*Para definir o espaçamento entre os elementos*/
+}
+
+#div3 {
+    height: 25vh;
+    background-color: yellow;
+    
+    display: flex;
+    flex-direction:row; /*se mudar para collum há uma inversão das propriedades abaixo. Fazer o teste para ver! */
+    justify-content:flex-end; /*elemento posicionado no final da tela*/
+    align-items: center;
+}

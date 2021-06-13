@@ -1,19 +1,21 @@
-body{
-    margin: 0px;
+body {
+    margin: 0;
 }
-div{
+
+#div1 {
+    height: 25vh;
+    background-color: red;
     text-align: center;
-    
 }
-div#primeiro{
-    border: solid 70px red;
+
+#div2 {
+    height: 25vh;
+    background-color: orange;
+    text-align: center;    
 }
-div#segundo{
-    border: solid 70px orange;
-}
-div#terceiro{
-    border: solid 70px yellow;
-}
-div#quarto{
-    border: solid 70px white;
+
+#div3 {
+    height: 25vh;
+    background-color: yellow;
+    text-align: center;
 }
