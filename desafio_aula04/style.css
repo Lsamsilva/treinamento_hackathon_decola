@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+div{
+    text-align: center;
+    
+}
+div#primeiro{
+    border: solid 70px red;
+}
+div#segundo{
+    border: solid 70px orange;
+}
+div#terceiro{
+    border: solid 70px yellow;
+}
+div#quarto{
+    border: solid 70px white;
+}

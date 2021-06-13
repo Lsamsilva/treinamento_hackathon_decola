@@ -16,9 +16,10 @@
             console.log("Oi")
         }
     </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="margem-minima">
         <h1>Olá Mundo!</h1>
         <h2>Treinamento</h2>
         <p id="para">Texto</p>
@@ -27,28 +28,40 @@
         <span>Tag Span HTML não define um parágrafo. É um texto "solto".</span>
         <span>Tag Div HTML serve para englobar um conjunto de elementos; facilitando na estilização com CSS.</span>        
     </div>
-    <p><img src="logo.JPG" alt="logo da iteris"></p>
-    <a href="https://www.iteris.com.br/">Site da Iteris</a>
+    <div class="margem-minima">
+        <p><img src="logo.JPG" alt="logo da iteris" id="img"></p>
+    </div>
+    <div class="margem-minima">
+        <a href="https://www.iteris.com.br/">Site da Iteris</a>
+    </div>
     <div>
         <h3>Elementos de Controle</h3>
-        <p>
-            Digite: 
-            <input type="text" id="meuinput" oninput="atualizacaoTexto()">
-        </p>
-        <p>
-            Verificação de Data
-            <input type="date">
-        </p>
-        <p>
-            <select name="opcoes">
-                <option value="texto">Opção 1</option>
-                <option value="texto">Opção 2</option>
-                <option value="texto">Opção 3</option>
-            </select>
-        </p>
-        <p>
-            <button onclick="clickNoBotao()">Clique aqui!</button>
-        </p>
+        <div class="margim-minima">
+            <p>
+                Digite:
+                <input type="text" id="meuinput" oninput="atualizacaoTexto()">
+            </p>
+        </div>
+        <div class="margim-minina">
+            <p>
+                Verificação de Data
+                <input type="date">
+            </p>
+        </div>
+        <div class="margim-minima">
+            <p>
+                <select name="opcoes">
+                    <option value="texto">Opção 1</option>
+                    <option value="texto">Opção 2</option>
+                    <option value="texto">Opção 3</option>
+                </select>
+            </p>
+        </div>
+        <div class="margim-minima">
+            <p>
+                <button onclick="clickNoBotao()">Clique aqui!</button>
+            </p>
+        </div>
     </div>
 
 
