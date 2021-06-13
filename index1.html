@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento Decola</title>
+    <script>
+        function clickNoBotao() {
+            alert("Olá. Bem-vindos!") 
+        }
+        function atualizacaoTexto(){
+            let input = document.getElementById("meuinput")
+            let p = document.getElementById("para")
+            p.textContent = input.value
+            console.log("Oi")
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Olá Mundo!</h1>
+        <h2>Treinamento</h2>
+        <p id="para">Texto</p>
+        <p>Esta página foi criada durante a realização do Treinamento Hackathon Decola da <a href="https://www.iteris.com.br/" target="_blanck">Iteris.</a></p>
+        <span>Informações</span>
+        <span>Tag Span HTML não define um parágrafo. É um texto "solto".</span>
+        <span>Tag Div HTML serve para englobar um conjunto de elementos; facilitando na estilização com CSS.</span>        
+    </div>
+    <p><img src="logo.JPG" alt="logo da iteris"></p>
+    <a href="https://www.iteris.com.br/">Site da Iteris</a>
+    <div>
+        <h3>Elementos de Controle</h3>
+        <p>
+            Digite: 
+            <input type="text" id="meuinput" oninput="atualizacaoTexto()">
+        </p>
+        <p>
+            Verificação de Data
+            <input type="date">
+        </p>
+        <p>
+            <select name="opcoes">
+                <option value="texto">Opção 1</option>
+                <option value="texto">Opção 2</option>
+                <option value="texto">Opção 3</option>
+            </select>
+        </p>
+        <p>
+            <button onclick="clickNoBotao()">Clique aqui!</button>
+        </p>
+    </div>
+
+
+</body>
+</html>
