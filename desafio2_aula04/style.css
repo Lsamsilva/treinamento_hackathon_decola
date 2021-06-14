@@ -45,7 +45,8 @@ body {
     width: 50%;
     margin: 0;
     background-color: blue;
-    /*display: flex;
+    /* Esta parte não é necessária pois já há a indicação no "pai"
+    display: flex;
     flex-direction: row;
     justify-content: left;*/
 }
