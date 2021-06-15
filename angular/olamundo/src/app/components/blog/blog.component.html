@@ -1,18 +1,1 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Primeiro Uso Angular!</title>
-</head>
-<body>
-  <article>
-    <h1>{{blogPost.titulo}}</h1>
-    <img [src]="blogPost.imagem" alt="imagem construção de blog">
-    <p>
-      {{blogPost.texto}}
-    </p>
-  </article>
-</body>
-</html>
+<app-blog-post *ngFor="let item of blogPosts" [post]="item"></app-blog-post> <!--O ngFor indica que o blog.components.ts tem uma lista de elementos. Por exemplo, tem 3 na lista, ele fará isso para todas as 3x-->
