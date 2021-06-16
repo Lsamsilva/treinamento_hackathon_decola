@@ -13,19 +13,20 @@ body {
     font-size: 22px;
 
     display: flex;
-    /*flex-direction: row;
-    justify-content:flex-start;*/
+    flex-direction: row;
+    justify-content:flex-start;
     align-items: center;
 }
 
 #div2 {  
-    height: 60vh;
     width: 100vw;
     
-    display: flex;
-    /*flex-direction: row;*/
+    flex-direction: row;
     justify-content:center;
     align-items: center;
+}
+img{
+    max-width: 100%;
 }
 
 #div3 { 
