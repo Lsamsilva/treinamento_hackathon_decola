@@ -6,6 +6,7 @@ import { BlogPostModel } from '../blog-post-model';
   templateUrl: './blog-post.component.html',
   styleUrls: ['./blog-post.component.css']
 })
+
 export class BlogPostComponent implements OnInit {
 
   @Input()

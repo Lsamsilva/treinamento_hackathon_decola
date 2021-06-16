@@ -1,15 +1,26 @@
 <article>
-  <h1>{{post?.titulo}}</h1>
+
+  <h2>{{post.titulo}}</h2>
+
   <div>
     <input type="text" [(ngModel)] = "post.titulo" />
   </div>
+
+  <div>
+    <input type="text" [(ngModel)] = "post.titulo" />
+  </div>
+
   <div>
     <input type="checkbox" [(ngModel)] = "post.exibirImagem" /> Exibir Imagem?
   </div>
+
   <img *ngIf="post.exibirImagem"
     [src]="post?.imagem" alt=""/>
+
   <p>
     {{post?.texto}}
   </p>
+
   <button class="share"(click)="compartilhar()">Compartilhar!</button>
+
 </article>
